@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Feature - Realtors Circle</title>
+
+    <!--asset-->
+    <link rel="shortcut icon" type="text/css" href="asset/img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://preview.colorlib.com/theme/bootstrap/css-table-19/css/style.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="vendor/fontawesome/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendor/datatables/css/jquery.dataTables.min.css">
+
+    <!-- Bootstrap daterangepicker -->
+    <link rel="stylesheet" href="vendor/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+    <!--Custom CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <link rel="stylesheet" href="vendor/jquery-asColorPicker/css/asColorPicker.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+
+<body>
+    <div class="page-wrapper">
+        <header>
+          <div class="top">
+              <div class="container">
+                  <h3 class="logo">Success Haven</h3>
+                  <div class="search-ctn d-none d-md-block">
+                      <img src="asset/img/icons/search-icon.png" alt="">
+                      <input type="text" placeholder="Search">
+                  </div>
+                  <div class="nomepro">
+                    <div class="item">
+                        <a href="notification.html"><img src="asset/img/icons/notification-icon.png" alt=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="schedule.html"><img src="asset/img/icons/calendar-icon-white.png" alt=""></a>
+                    </div>
+                    <div class="drop-now cursor-p d-flex align-items-center justify-content end gap-2">
+                      <div class="item dpi">
+                          <div class="profile-dropdown">
+                              <div class="d-flex align-items-center justify-content-between gap-4">
+                                  <div class="d-flex align-items-center align-items-start gap-3">
+                                    <a href="insight.html">
+                                      <div class="img">
+                                          <img src="asset/img/user-img.png" class="img-flui" alt="">
+                                      </div>
+                                    </a>
+                                  </div>
+                              </div>
+                              <ul class="profile-dropdown-items profile-items">
+                                <li class="dropdown-item">
+                                    <a href="profile.html">
+                                      <i class="fa fa-user"></i> &nbsp;
+                                    Profile</a>
+                                </li>
+                                <li class="dropdown-item">
+                                  <a href="notification.html">
+                                    <i class="fa fa-bell"></i> &nbsp;
+                                  Notifications</a>
+                              </li>
+                              <li class="dropdown-item border-0">
+                                <a href="broadcast-message.html">
+                                  <i class="fa fa-bullhorn"></i> &nbsp;
+                                Broadcast Message</a>
+                              </li>
+                              <li class="mt-4">
+                                <a href="premium-feature.html" class="new-discussion-btn btn-success text-center fs-12 w-100 d-block">Subscribe to Pro Version</a>
+                              </li>
+                                <li class="dropdown-item">
+                                    <a href="javascript:;">
+                                    Logout</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      <div class="directions close">
+                        <i class="fa fa-chevron-down"></i>
+                        <i class="fa fa-chevron-up"></i>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+           <nav class="navbar navbar-expand-lg">
+               <div class="container cosynav">
+                 <a class="navbar-brand text-light" href="">
+                   <small>Good morning</small> <br> 
+                   <span>Hello John Doe</span>
+                 </a>
+       
+                 <!-- Nav Item -->
+                 <ul class="navbar-nav ma-auto  nav-sm">
+                   <!-- Logo on small screen -->
+                   <div class="sm-logo-ctn d-lg-none opacity-75">
+                     <div class="menu-btn d-lg-none d-sm-block">
+                       <!-- <div class="menu-btn-burger"></div> -->
+                     <i class="fa fa-arrow-right"></i>
+                     </div>
+                     <!-- <img src="asset/img/logo.png" class="img-fluid mb-2" alt=""> -->
+                   </div>
+                   <!-- <span class="close d-lg-none d-sm-block">&times;</span> -->
+                   <li class="nav-item">
+                     <a class="nav-link" href="index.html">Dashboard </a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="properties.html">Properties</a>
+                   </li>
+                   
+                   <li class="nav-item">
+                     <a class="nav-link getstarted-btn" href="customers.html">Customers</a>
+                   </li>
+                  
+                   <li class="nav-item">
+                     <a class="nav-link getstarted-btn" href="settings.html">Settings</a>
+                   </li>
+                  
+                 </ul>
+                 <!-- Harmburger menu icon -->
+                 <div class="menu-btn d-lg-none d-sm-block">
+                   <div class="menu-btn-burger"></div>
+                 </div>
+               </div>
+             </nav>
+        </header>
+        <main>
+          <section class="mv-hero">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 order-2 order-md-1">
+                  <div class="hero-text-ctn">
+                    <h4>Introducing Our Pro Version</h4>
+                    <h1>Connect With Your Leads With Our Pro Features</h1>
+                  </div>
+                  <button class="primary-btn btn-rounded">Upgrade to Pro Version</button>
+                </div>
+                <div class="col-md-6 position-relative order-1 order-md-2">
+                  <img src="asset/img/mv-img.png" class="img-flui" alt="">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="mv-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 order-2 order-md-1">
+                  <h3 class="mv-title">
+                    Know your page insight and statistics.
+                  </h3>
+                  <p class="mv-sub-title">
+                    know how many users visited your page and generate leads form there.
+                  </p>
+                  <button class="primary-btn btn-rounded mt-lg-5 mt-3">Upgrade to Pro Version</button>
+                </div>
+                <div class="col-md-6 order-1 order-md-2 mb-3 mb-md-0">
+                  <img src="asset/img/mv-img-2.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="mv-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <img src="asset/img/mv-img-3.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                  <h3 class="mv-title">be able to manage your potential clients</h3>
+                  <p class="mv-sub-title">
+                    automatically collect info about potential clients from our system.
+                  </p>
+                  <button class="primary-btn btn-rounded mt-lg-5 mt-3">Upgrade to Pro Version</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="mv-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7 col-lg-8 order-2 order-md-1">
+                  <h3 class="mv-title">
+                    potential clients can send you direct messages.
+                  </h3>
+                  <p class="mv-sub-title">
+                    Your clients can DM you directly on whatsapp or telegram.
+                  </p>
+                  <button class="primary-btn btn-rounded mt-lg-5 mt-3">Upgrade to Pro Version</button>
+                </div>
+                <div class="col-md-5 col-lg-4 order-1 order-md-2 mb-3 mb-md-0">
+                  <img src="asset/img/mv-img-4.png" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="mv-section">
+            <div class="container">
+              <h1 class="mv-lg-title text-center">Subscribe to our pro version now!</h1>
+              <p class="mv-sub-title text-center">get a chance to track your potential clients</p>
+              <div class="row mt-5">
+                <div class="col-md-6 mb-5 mb-md-0">
+                  <div class="mv-card">
+                    <h5>Normal Plan</h5>
+                    <h1>Free</h1>
+                    <ul>
+                      <li>post available properties</li>
+                      <li>profile customization</li>
+                      <li>upload complete property detail</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mv-card pro">
+                    <h5>Pro Version</h5>
+                    <h1>N5,000</h1>
+                    <ul>
+                      <li>post available properties</li>
+                      <li>profile customization</li>
+                      <li>upload complete property detail</li>
+                    </ul>
+                    <button class="primary-btn rounded mt-4 w-100">subscribe to premium</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h4 class="footer-logo-text">Success <br> Haven</h4>
+            <small class="d-none d-md-block">&copy;2024 Success Haven. All Rights Reserved.</small>
+          </div>
+          <div class="col-lg-1 d-none d-lg-block"></div>
+          <div class="col-md-4 col-lg-3 mb-4">
+            <h5 class="footer-middle-text">Discover real estate <br> properties seamlessly</h5>
+            <small>email: info@successhaven.ng</small>
+          </div>
+          <div class="col-lg-1 d-none d-lg-block"></div>
+          <div class="col-md-4 col-lg-3 mb-0 mb-md-4">
+            <form action="" class="footer-form">
+              <div class="d-block d-md-flex align-items-center justify-content-between">
+                <input type="text" name="email" placeholder="Email">
+                <button class="sub-btn"><i class="fa fa-chevron-right"></i></button>
+              </div>
+            </form>
+            <div class="footer-socials">
+              <a href="javascript:;"><img src="asset/img/icons/facebook-icon-white.png" alt=""></a>
+              <a href="javascript:;"><img src="asset/img/icons/instagram-icon-alt.png" alt=""></a>
+              <a href="javascript:;"><img src="asset/img/icons/twitter-icon-white.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <small class="mt-4 d-block d-md-none">&copy;2024 Success Haven. All Rights Reserved.</small>
+      </div>
+    </footer>
+
+
+
+    <!-- JS FILES -->
+    <script src="vendor/jquery/jQuery3.6.1.min.js"></script>
+    <script src="vendor/popper/popper.js"></script>
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="vendor/fontawesome/all.min.js"></script>
+    <script src="vendor/jquery-validate/jquery.validate.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/moment/moment.min.js"></script>
+    <script src="vendor/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="vendor/jquery-asColor/jquery-asColor.min.js"></script>
+    <script src="vendor/jquery-asColorPicker/js/jquery-asColorPicker.min.js"></script>
+    <script src="asset/js/jquery-asColorPicker.init.js"></script>
+    <script src="asset/js/dashboard.js"></script>
+    <script src="asset/js/plugins_init.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Realtors Circle</title>
+
+    <!--asset-->
+    <link rel="shortcut icon" type="text/css" href="asset/img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://preview.colorlib.com/theme/bootstrap/css-table-19/css/style.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="vendor/fontawesome/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendor/datatables/css/jquery.dataTables.min.css">
+
+    <!-- Bootstrap daterangepicker -->
+    <link rel="stylesheet" href="vendor/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/> <!-- 'classic' theme -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/monolith.min.css"/> <!-- 'monolith' theme -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"/> <!-- 'nano' theme -->
+     <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.es5.min.js"></script>
+
+    <!--Custom CSS-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script> 
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+
+<body>
+    <div class="page-wrapper">
+        <header>
+          <div class="top">
+              <div class="container">
+                  <h3 class="logo">Success Haven</h3>
+                  <div class="search-ctn d-none d-md-block">
+                      <img src="asset/img/icons/search-icon.png" alt="">
+                      <input type="text" placeholder="Search">
+                  </div>
+                  <div class="nomepro">
+                    <div class="item">
+                        <a href="notification.html"><img src="asset/img/icons/notification-icon.png" alt=""></a>
+                    </div>
+                    <div class="item">
+                        <a href="schedule.html"><img src="asset/img/icons/calendar-icon-white.png" alt=""></a>
+                    </div>
+                    <div class="drop-now cursor-p d-flex align-items-center justify-content end gap-2">
+                      <div class="item dpi">
+                          <div class="profile-dropdown">
+                              <div class="d-flex align-items-center justify-content-between gap-4">
+                                  <div class="d-flex align-items-center align-items-start gap-3">
+                                    <a href="insight.html">
+                                      <div class="img">
+                                          <img src="asset/img/user-img.png" class="img-flui" alt="">
+                                      </div>
+                                    </a>
+                                  </div>
+                              </div>
+                              <ul class="profile-dropdown-items profile-items">
+                                <li class="dropdown-item">
+                                    <a href="profile.html">
+                                      <i class="fa fa-user"></i> &nbsp;
+                                    Profile</a>
+                                </li>
+                                <li class="dropdown-item">
+                                  <a href="notification.html">
+                                    <i class="fa fa-bell"></i> &nbsp;
+                                  Notifications</a>
+                              </li>
+                              <li class="dropdown-item border-0">
+                                <a href="broadcast-message.html">
+                                  <i class="fa fa-bullhorn"></i> &nbsp;
+                                Broadcast Message</a>
+                              </li>
+                              <li class="mt-4">
+                                <a href="premium-feature.html" class="new-discussion-btn btn-success text-center fs-12 w-100 d-block">Subscribe to Pro Version</a>
+                              </li>
+                                <li class="dropdown-item">
+                                    <a href="javascript:;">
+                                    Logout</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      <div class="directions close">
+                        <i class="fa fa-chevron-down"></i>
+                        <i class="fa fa-chevron-up"></i>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+           <nav class="navbar navbar-expand-lg">
+               <div class="container cosynav">
+                 <a class="navbar-brand text-light" href="">
+                   <small>Good morning</small> <br> 
+                   <span>Hello John Doe</span>
+                 </a>
+       
+                 <!-- Nav Item -->
+                 <ul class="navbar-nav ma-auto  nav-sm">
+                   <!-- Logo on small screen -->
+                   <div class="sm-logo-ctn d-lg-none opacity-75">
+                     <div class="menu-btn d-lg-none d-sm-block">
+                       <!-- <div class="menu-btn-burger"></div> -->
+                     <i class="fa fa-arrow-right"></i>
+                     </div>
+                     <!-- <img src="asset/img/logo.png" class="img-fluid mb-2" alt=""> -->
+                   </div>
+                   <!-- <span class="close d-lg-none d-sm-block">&times;</span> -->
+                   <li class="nav-item">
+                     <a class="nav-link" href="index.html">Dashboard </a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="properties.html">Properties</a>
+                   </li>
+
+                   <li class="nav-item">
+                     <a class="nav-link getstarted-btn" href="customers.html">Customers</a>
+                   </li>
+
+                   <li class="nav-item">
+                     <a class="nav-link active" href="settings.html">Settings</a>
+                   </li>
+                  
+                 </ul>
+                 <!-- Harmburger menu icon -->
+                 <div class="menu-btn d-lg-none d-sm-block">
+                   <div class="menu-btn-burger"></div>
+                 </div>
+               </div>
+             </nav>
+        </header>
+        <main>
+          <div class="container">
+               <form action="">
+                    <div class="row">
+                         <div class="col-12 mb-4">
+                             <div class="profile-ctn" style="height: auto;background: transparent;">
+                                 <div class="img" id="imagePreview" style="width: 180px;height: 180px;">
+                                     <img src="asset/img/user-img.png" alt="">
+                                 </div>
+                                 <div>
+                                     <input type="file" class="d-none" name="profile_picture" id="profile_picture">
+                                     <label class="file-label cursor-p" for="profile_picture">Change Display Picture <img src="asset/img/icons/copy-icon.png" alt=""></label>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col-12 mb-4">
+                          <div class="form-group">
+                            <label for="">Profile link</label>
+                            <div class="custom-input-group">
+                              <input type="text" name="" value="therealtorscircle.com/johndoe123" id="">
+                              <img src="asset/img/icons/copy-icon-green.png" alt="" id="copy-img">
+                              <span class="custom-tooltip d-none text-success">Copied!</span>
+                            </div>
+                          </div>
+                         </div>
+                         <div class="col-12 mb-4">
+                          <div class="form-group">
+                            <label for="">Bio</label>
+                            <textarea name="" class="form-control" id="">5 years experience in real estate business</textarea>
+                          </div>
+                         </div>
+                         <div class="col-sm-6 mb-4">
+                              <div class="form-group">
+                                   <label for="">First name</label>
+                                   <input type="text" value="John" class="form-control">
+                              </div>
+                         </div>
+                         <div class="col-sm-6 mb-4">
+                              <div class="form-group">
+                                   <label for="">Last name</label>
+                                   <input type="text" value="Doe" class="form-control">
+                              </div>
+                         </div>
+                         <div class="col-sm-6 mb-4">
+                              <div class="form-group">
+                                   <label for="">Username</label>
+                                   <input type="text" value="Doe234" class="form-control">
+                              </div>
+                         </div>
+                         <div class="col-sm-6 mb-4">
+                              <div class="form-group">
+                                   <label for="">Email</label>
+                                   <input type="text" value="johndoe@gmail.com" class="form-control">
+                              </div>
+                         </div>
+                        
+                         <div class="col-sm-6 mb-4">
+                              <div class="form-group">
+                                   <label for="">City</label>
+                                   <input type="text" value="Abakaliki" class="form-control">
+                              </div>
+                         </div>
+                         <div class="col-sm-6 mb-4">
+                              <div class="form-group">
+                                   <label for="">State</label>
+                                   <input type="text" value="Ebonyi" class="form-control">
+                              </div>
+                         </div>
+                         <div class="col-sm-6 mb-4">
+                          <div class="form-group">
+                            <label for="">Facebook</label>
+                            <input type="text" value="https://facebok.com/johndoe" class="form-control">
+                          </div>
+                         </div>
+                         <div class="col-sm-6 mb-4">
+                          <div class="form-group">
+                            <label for="">Instagram</label>
+                            <input type="text" value="https://instagram.com/johndoe" class="form-control">
+                          </div>
+                         </div>
+                         <div class="col-sm-6 mb-4">
+                          <div class="form-group">
+                               <label for="">Password</label>
+                               <input type="password" value="johndoe@gmail.com" class="form-control">
+                          </div>
+                     </div>
+                     <div class="col-sm-6 mb-4">
+                          <div class="form-group">
+                               <label for="">Confirm password</label>
+                               <input type="password" value="johndoe@gmail.com" class="form-control">
+                          </div>
+                     </div>
+                     </div>
+                     <div class="mt-4 mb-5">
+                         <button type="submit" class="new-discussion-btn btn-success w-100">Save changes</button>
+                     </div>
+               </form>
+
+          </div>
+        </main>
+    </div>
+
+
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered">
+           <div class="modal-content">
+                <div class="modal-body rounded">
+                  <div class="d-flex align-items-center justify-content-center mb-2 mt-3">
+                      <img src="asset/img/icons/verify-icon.png" width="70px" alt="icon">
+                  </div>
+                     <h3 class="text-center mb-2">Success!</h3>
+                    <div class="text-center mb-4">
+                      Testimonial added.
+                    </div>
+                      <a href="website.html" type="button" class="new-discussion-btn btn-success w-100 mb-2"><i class="fa fa-arrow-left"></i> Back</a>
+                </div>
+           </div>
+      </div>
+  </div>
+
+
+
+    <!-- JS FILES -->
+    <script src="vendor/jquery/jQuery3.6.1.min.js"></script>
+    <script src="vendor/popper/popper.js"></script>
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="vendor/fontawesome/all.min.js"></script>
+    <script src="vendor/jquery-validate/jquery.validate.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/moment/moment.min.js"></script>
+    <script src="vendor/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="asset/js/dashboard.js"></script>
+    <script src="asset/js/plugins_init.js"></script>
+    <script src="asset/js/main.js"></script>
+    <script>
+     document.addEventListener('DOMContentLoaded', function(){
+         document.getElementById('profile_picture').addEventListener('change', function(){
+             var input = this;
+             if (input.files && input.files[0]){
+                 var reader = new FileReader();
+                 reader.onload = function(e) {
+                     document.getElementById('imagePreview').innerHTML = '<img src="' + e.target.result + '" width="200" height="200" />';
+                 }
+
+                 reader.readAsDataURL(input.files[0]);
+             }
+         })
+     })
+ </script>
+ <script>
+     $(document).ready(function(){
+          $('.text-source').on('keyup', function(){
+         var $this = $(this);
+         let totalLength = $(this).parent('.counter-container').find('.total-text').text();
+             totalLength = parseInt(totalLength);
+ 
+ 
+         let textLength = $(this).val().split(' ').filter(function(word){
+           return word != '';
+         }).length;
+ 
+         $(this).parent('.counter-container').find('.entered-text').text(textLength);
+ 
+         if(textLength >= totalLength){
+           var maxText = $this.val();
+           var newText = maxText.split(' ').slice(0, totalLength).join(' ');
+           $this.val(newText)
+         } 
+ 
+       });
+
+       $("#copy-img").on('click', function() {
+               var _this = $(this);
+               var input = $(this).siblings('input');
+               input.select();
+               document.execCommand("copy");
+               
+               $(this).siblings('.custom-tooltip').removeClass("d-none");
+               $(this).addClass("d-none");
+
+               setTimeout(() => {
+                  $(this).siblings('.custom-tooltip').addClass("d-none");
+                  $(this).removeClass("d-none");
+               }, 3000);
+          });
+     })
+ </script>
+</body>
+
+</html>
